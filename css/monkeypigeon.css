@@ -1,3 +1,4 @@
+/* line 5, ../SASS/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,35 +21,44 @@ time, mark, audio, video {
   font-size: 100%; }
 
 /* HTML5 display-role reset for older browsers */
+/* line 28, ../SASS/_reset.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+/* line 33, ../SASS/_reset.scss */
 body {
   line-height: 1; }
 
+/* line 37, ../SASS/_reset.scss */
 ol, ul {
   list-style: none; }
 
+/* line 41, ../SASS/_reset.scss */
 blockquote, q {
   quotes: none; }
 
+/* line 45, ../SASS/_reset.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
+/* line 51, ../SASS/_reset.scss */
 :focus {
   outline: 0; }
 
+/* line 55, ../SASS/_reset.scss */
 *:before {
   padding: 0;
   margin: 0; }
 
+/* line 60, ../SASS/_reset.scss */
 table {
   border-spacing: 0;
   border-collapse: collapse; }
 
+/* line 66, ../SASS/_reset.scss */
 input,
 button,
 select,
@@ -57,6 +67,7 @@ textarea {
   font-size: inherit;
   line-height: inherit; }
 
+/* line 79, ../SASS/_reset.scss */
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -64,9 +75,11 @@ textarea {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+/* line 3, ../SASS/monkeypigeon.scss */
 body {
   font-family: Georgia, serif; }
 
+/* line 7, ../SASS/monkeypigeon.scss */
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
@@ -74,6 +87,7 @@ header {
   background-size: cover;
   background-position-y: 20%; }
 
+/* line 15, ../SASS/monkeypigeon.scss */
 h1 {
-  font-size: 4em;
+  font-size: 5em;
   margin: 1em; }
