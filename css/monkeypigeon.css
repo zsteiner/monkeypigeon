@@ -966,11 +966,11 @@ textarea {
   /* line 840, ../sass/bootstrap/_mixins.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
-/* line 8, ../sass/monkeypigeon.scss */
+/* line 7, ../sass/monkeypigeon.scss */
 body {
   font-family: Georgia, serif; }
 
-/* line 12, ../sass/monkeypigeon.scss */
+/* line 11, ../sass/monkeypigeon.scss */
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
@@ -978,7 +978,7 @@ header {
   background-size: cover;
   background-position-y: 20%; }
 
-/* line 20, ../sass/monkeypigeon.scss */
+/* line 19, ../sass/monkeypigeon.scss */
 h1 {
   font-size: 5em;
   margin: 1em; }
