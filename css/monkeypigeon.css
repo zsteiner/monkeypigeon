@@ -1,3 +1,80 @@
+/* line 5, ../sass/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../sass/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 33, ../sass/_reset.scss */
+body {
+  line-height: 1; }
+
+/* line 37, ../sass/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 41, ../sass/_reset.scss */
+blockquote, q {
+  quotes: none; }
+
+/* line 45, ../sass/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 51, ../sass/_reset.scss */
+:focus {
+  outline: 0; }
+
+/* line 55, ../sass/_reset.scss */
+*:before {
+  padding: 0;
+  margin: 0; }
+
+/* line 60, ../sass/_reset.scss */
+table {
+  border-spacing: 0;
+  border-collapse: collapse; }
+
+/* line 66, ../sass/_reset.scss */
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+
+/* line 79, ../sass/_reset.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 /* line 10, ../sass/bootstrap/_grid.scss */
 .container {
   margin-right: auto;
@@ -889,88 +966,11 @@
   /* line 840, ../sass/bootstrap/_mixins.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
-/* line 5, ../sass/_reset.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  vertical-align: baseline;
-  font: inherit;
-  font-size: 100%; }
-
-/* HTML5 display-role reset for older browsers */
-/* line 28, ../sass/_reset.scss */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-/* line 33, ../sass/_reset.scss */
-body {
-  line-height: 1; }
-
-/* line 37, ../sass/_reset.scss */
-ol, ul {
-  list-style: none; }
-
-/* line 41, ../sass/_reset.scss */
-blockquote, q {
-  quotes: none; }
-
-/* line 45, ../sass/_reset.scss */
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-/* line 51, ../sass/_reset.scss */
-:focus {
-  outline: 0; }
-
-/* line 55, ../sass/_reset.scss */
-*:before {
-  padding: 0;
-  margin: 0; }
-
-/* line 60, ../sass/_reset.scss */
-table {
-  border-spacing: 0;
-  border-collapse: collapse; }
-
-/* line 66, ../sass/_reset.scss */
-input,
-button,
-select,
-textarea {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit; }
-
-/* line 79, ../sass/_reset.scss */
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
-
-/* line 7, ../sass/monkeypigeon.scss */
+/* line 8, ../sass/monkeypigeon.scss */
 body {
   font-family: Georgia, serif; }
 
-/* line 11, ../sass/monkeypigeon.scss */
+/* line 12, ../sass/monkeypigeon.scss */
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
@@ -978,7 +978,58 @@ header {
   background-size: cover;
   background-position-y: 20%; }
 
-/* line 19, ../sass/monkeypigeon.scss */
+/* line 20, ../sass/monkeypigeon.scss */
 h1 {
   font-size: 5em;
   margin: 1em; }
+
+/* line 3, ../sass/_footer-sticky.scss */
+html, body {
+  height: 100%; }
+
+/* line 7, ../sass/_footer-sticky.scss */
+.page-wrap {
+  margin-bottom: -12em;
+  min-height: 100%; }
+
+/* line 12, ../sass/_footer-sticky.scss */
+.page-wrap:after {
+  display: block;
+  content: "";
+  z-index: -1; }
+
+/* line 18, ../sass/_footer-sticky.scss */
+footer, .page-wrap:after {
+  height: 12em; }
+
+/* line 22, ../sass/_footer-sticky.scss */
+footer {
+  margin: 0;
+  font-weight: 300; }
+  /* line 26, ../sass/_footer-sticky.scss */
+  footer .address {
+    float: right;
+    padding-top: 1.5em;
+    font-size: 1em; }
+    /* line 31, ../sass/_footer-sticky.scss */
+    footer .address li {
+      margin-bottom: .5em; }
+  /* line 36, ../sass/_footer-sticky.scss */
+  footer p {
+    padding: 1.25em 0 0 0;
+    width: 50%;
+    font-size: 1em; }
+
+/* line 43, ../sass/_footer-sticky.scss */
+.dvs-version {
+  font-size: 1.5em;
+  margin-bottom: .5em; }
+
+@media (max-width: 768px) {
+  /* line 52, ../sass/_footer-sticky.scss */
+  .page-wrap {
+    margin-bottom: -20em; }
+
+  /* line 56, ../sass/_footer-sticky.scss */
+  footer, .page-wrap:after {
+    height: 20em; } }

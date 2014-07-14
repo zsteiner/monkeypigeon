@@ -1,8 +1,9 @@
+@import 'reset';
+
 @import 'bootstrap/variables';
 @import 'bootstrap/mixins';
 @import 'bootstrap/grid';
 
-@import 'reset';
 
 body {
 	font-family: Georgia, serif;
@@ -20,3 +21,5 @@ h1 {
 	font-size: 5em;
 	margin: 1em
 }
+
+@import 'footer-sticky';
