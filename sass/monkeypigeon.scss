@@ -4,6 +4,15 @@ body {
 	font-family: Georgia, serif;
 }
 
+header {
+	height: 24em;
+	background-image: url('../images/monkeypigeon.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: 20%;
+}
+
 h1 {
-	
+	font-size: 4em;
+	margin: 1em
 }
