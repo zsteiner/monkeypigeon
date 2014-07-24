@@ -11,14 +11,20 @@ body {
 header {
 	height: 24em;
 	background-image: url('../images/monkeypigeon.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
 	background-position-y: 20%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 h1 {
+	margin: 5rem 5rem 2rem;
 	font-size: 5em;
-	margin: 1em
+}
+
+h2 {
+	margin: .25em 5rem;
+	font-style: italic;
+	font-size: 3em;
 }
 
 @import 'footer-sticky';
