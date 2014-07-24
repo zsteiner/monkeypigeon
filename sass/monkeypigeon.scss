@@ -17,7 +17,7 @@ header {
 }
 
 h1 {
-	margin: 5rem 5rem 2rem;
+	margin: 1em 5rem;
 	font-size: 5em;
 }
 
@@ -28,3 +28,18 @@ h2 {
 }
 
 @import 'footer-sticky';
+
+//Mobile Style ... break point from Bootstrap
+@media (max-width: $screen-sm-min) { 
+	
+	h1 {
+		font-size: 3em;
+		margin: .5em 2rem;
+	}
+	
+	h2 {
+		font-size: 1.5em;
+		margin: 0 2rem;
+	}
+
+}

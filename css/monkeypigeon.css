@@ -980,7 +980,7 @@ header {
 
 /* line 19, ../sass/monkeypigeon.scss */
 h1 {
-  margin: 5rem 5rem 2rem;
+  margin: 1em 5rem;
   font-size: 5em; }
 
 /* line 24, ../sass/monkeypigeon.scss */
@@ -1039,3 +1039,13 @@ footer {
   /* line 56, ../sass/_footer-sticky.scss */
   footer, .page-wrap:after {
     height: 20em; } }
+@media (max-width: 768px) {
+  /* line 35, ../sass/monkeypigeon.scss */
+  h1 {
+    font-size: 3em;
+    margin: .5em 2rem; }
+
+  /* line 40, ../sass/monkeypigeon.scss */
+  h2 {
+    font-size: 1.5em;
+    margin: 0 2rem; } }
