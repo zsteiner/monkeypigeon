@@ -1,0 +1,104 @@
+.container {
+	position: relative;
+	width: 600px;
+	height: 800px;
+	border: 1px solid grey;
+	margin: 25px;
+	padding: 25px;
+}
+
+.picture {
+	position: relative;
+	width: 300px;
+	height: 300px;
+	margin: 25px;
+	background-size: cover;
+	background-position-x: 50%;
+	background-repeat: no-repeat;
+	background-image: url('../images/monkeypigeon.jpg')
+}
+
+.picture:before {
+	content: "";
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	right:0;
+	border-left: 50px solid transparent;
+	border-top: 50px solid #c5ba3c;
+}
+
+.picture:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	right:0;
+	border-left: 50px solid transparent;
+	border-bottom: 50px solid #c5ba3c;
+}
+
+.photo-corners:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	left:0;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid #c5ba3c;
+}
+
+.photo-corners:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	left: 0;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #c5ba3c;
+}
+
+.triangle-top-right {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	right:0;
+	border-left: 50px solid transparent;
+	border-top: 50px solid #c5ba3c;
+}
+
+.triangle-bottom-right {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	right:0;
+	border-left: 50px solid transparent;
+	border-bottom: 50px solid #c5ba3c;
+}
+
+.triangle-bottom-left {
+	position: absolute;
+	width: 0;
+	height: 0;
+	bottom: 0;
+	left:0;
+	border-right: 50px solid transparent;
+	border-bottom: 50px solid #c5ba3c;
+}
+
+.triangle-top-left {
+	position: absolute;
+	width: 0;
+	height: 0;
+	top: 0;
+	left: 0;
+	border-right: 50px solid transparent;
+	border-top: 50px solid #c5ba3c;
+}
