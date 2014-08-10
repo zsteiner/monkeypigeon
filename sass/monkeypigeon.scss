@@ -29,16 +29,8 @@ h2 {
 	font-size: 3em;
 }
 
-nav {
-	ul {
-		text-align: center;
-				
-		li {
-			display: inline-block;
-			padding: .5em;
-			margin: 1em;
-		}
-	}
+a {
+	text-decoration: none;
 }
 
 aside {
@@ -47,11 +39,10 @@ aside {
 	}
 }
 
-footer {
-	padding: 1em;
-}
+@import 'nav';
 
-@import 'footer-sticky';
+@import 'footer';
+
 
 //Mobile Style ... break point from Bootstrap
 @media (max-width: $screen-sm-min) { 

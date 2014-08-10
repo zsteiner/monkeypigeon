@@ -989,20 +989,34 @@ h2 {
   margin: .25em 5rem;
   font-size: 3em; }
 
-/* line 33, ../sass/monkeypigeon.scss */
-nav ul {
-  text-align: center; }
-  /* line 36, ../sass/monkeypigeon.scss */
-  nav ul li {
-    display: inline-block;
-    padding: .5em;
-    margin: 1em; }
+/* line 32, ../sass/monkeypigeon.scss */
+a {
+  text-decoration: none; }
 
-/* line 45, ../sass/monkeypigeon.scss */
+/* line 37, ../sass/monkeypigeon.scss */
 aside .aside-content {
   padding: 1em; }
 
-/* line 50, ../sass/monkeypigeon.scss */
+/* line 4, ../sass/_nav.scss */
+nav ul {
+  text-align: center; }
+  /* line 7, ../sass/_nav.scss */
+  nav ul li {
+    display: inline-block;
+    margin: 0 1em; }
+/* line 13, ../sass/_nav.scss */
+nav a:link, nav a:visited, nav a:active {
+  color: #3b698c;
+  text-transform: uppercase;
+  font-size: 2em;
+  display: block;
+  padding: .25em; }
+/* line 21, ../sass/_nav.scss */
+nav a:hover {
+  color: #244156;
+  background-color: #d7e1e8; }
+
+/* line 1, ../sass/_footer.scss */
 footer {
   padding: 1em; }
 
@@ -1057,12 +1071,12 @@ footer {
   footer, .page-wrap:after {
     height: 14em; } }
 @media (max-width: 768px) {
-  /* line 59, ../sass/monkeypigeon.scss */
+  /* line 50, ../sass/monkeypigeon.scss */
   h1 {
     font-size: 3em;
     margin: .5em 2rem; }
 
-  /* line 64, ../sass/monkeypigeon.scss */
+  /* line 55, ../sass/monkeypigeon.scss */
   h2 {
     font-size: 1.5em;
     margin: 0 2rem; } }

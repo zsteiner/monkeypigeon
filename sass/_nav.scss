@@ -1,0 +1,25 @@
+nav {
+	$link-color: $blue;
+	
+	ul {
+		text-align: center;
+				
+		li {
+			display: inline-block;
+			margin: 0 1em;
+		}
+	}
+	
+	a:link, a:visited, a:active {
+		color: $link-color;
+		text-transform: uppercase;
+		font-size: 2em;
+		display: block;
+		padding: .25em;
+	}
+	
+	a:hover {
+		color: darken($link-color, 15%);
+		background-color: tint($link-color, 80%);
+	}
+}
