@@ -23,7 +23,7 @@ time, mark, audio, video {
 /* HTML5 display-role reset for older browsers */
 /* line 28, ../sass/_reset.scss */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, nav, section, main {
   display: block; }
 
 /* line 33, ../sass/_reset.scss */
@@ -966,11 +966,11 @@ textarea {
   /* line 840, ../sass/bootstrap/_mixins.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
-/* line 7, ../sass/monkeypigeon.scss */
+/* line 9, ../sass/monkeypigeon.scss */
 body {
-  font-family: Georgia, serif; }
+  font-family: Avenir, Helvetica, Arial, sans-serif; }
 
-/* line 11, ../sass/monkeypigeon.scss */
+/* line 13, ../sass/monkeypigeon.scss */
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
@@ -978,16 +978,33 @@ header {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 19, ../sass/monkeypigeon.scss */
+/* line 21, ../sass/monkeypigeon.scss */
 h1 {
-  margin: 1em 5rem;
-  font-size: 5em; }
+  margin: .5em 5rem;
+  font-size: 5em;
+  font-family: Didot, Georgia Pro, Georgia, Times New Roman, serif; }
 
-/* line 24, ../sass/monkeypigeon.scss */
+/* line 27, ../sass/monkeypigeon.scss */
 h2 {
   margin: .25em 5rem;
-  font-style: italic;
   font-size: 3em; }
+
+/* line 33, ../sass/monkeypigeon.scss */
+nav ul {
+  text-align: center; }
+  /* line 36, ../sass/monkeypigeon.scss */
+  nav ul li {
+    display: inline-block;
+    padding: .5em;
+    margin: 1em; }
+
+/* line 45, ../sass/monkeypigeon.scss */
+aside .aside-content {
+  padding: 1em; }
+
+/* line 50, ../sass/monkeypigeon.scss */
+footer {
+  padding: 1em; }
 
 /* line 3, ../sass/_footer-sticky.scss */
 html, body {
@@ -995,7 +1012,7 @@ html, body {
 
 /* line 7, ../sass/_footer-sticky.scss */
 .page-wrap {
-  margin-bottom: -12em;
+  margin-bottom: -6em;
   min-height: 100%; }
 
 /* line 12, ../sass/_footer-sticky.scss */
@@ -1006,7 +1023,7 @@ html, body {
 
 /* line 18, ../sass/_footer-sticky.scss */
 footer, .page-wrap:after {
-  height: 12em; }
+  height: 6em; }
 
 /* line 22, ../sass/_footer-sticky.scss */
 footer {
@@ -1034,18 +1051,18 @@ footer {
 @media (max-width: 768px) {
   /* line 52, ../sass/_footer-sticky.scss */
   .page-wrap {
-    margin-bottom: -20em; }
+    margin-bottom: -14em; }
 
   /* line 56, ../sass/_footer-sticky.scss */
   footer, .page-wrap:after {
-    height: 20em; } }
+    height: 14em; } }
 @media (max-width: 768px) {
-  /* line 35, ../sass/monkeypigeon.scss */
+  /* line 59, ../sass/monkeypigeon.scss */
   h1 {
     font-size: 3em;
     margin: .5em 2rem; }
 
-  /* line 40, ../sass/monkeypigeon.scss */
+  /* line 64, ../sass/monkeypigeon.scss */
   h2 {
     font-size: 1.5em;
     margin: 0 2rem; } }

@@ -4,8 +4,10 @@
 @import 'bootstrap/mixins';
 @import 'bootstrap/grid';
 
+@import 'variables';
+
 body {
-	font-family: Georgia, serif;
+	font-family: $font-stack-sans-serif;
 }
 
 header {
@@ -17,14 +19,36 @@ header {
 }
 
 h1 {
-	margin: 1em 5rem;
+	margin: .5em 5rem;
 	font-size: 5em;
+	font-family: $font-stack-serif;
 }
 
 h2 {
 	margin: .25em 5rem;
-	font-style: italic;
 	font-size: 3em;
+}
+
+nav {
+	ul {
+		text-align: center;
+				
+		li {
+			display: inline-block;
+			padding: .5em;
+			margin: 1em;
+		}
+	}
+}
+
+aside {
+	.aside-content {
+		padding: 1em;
+	}
+}
+
+footer {
+	padding: 1em;
 }
 
 @import 'footer-sticky';
