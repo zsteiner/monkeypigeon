@@ -19,32 +19,6 @@ footer, .page-wrap:after {
   height: $footer-size; 
 }
 
-footer {
- 	margin: 0;
-	font-weight: 300;
-	
- 	.address {
-	 	float: right;
-	 	padding-top: 1.5em;
-	 	font-size: 1em;
-	 	
-	 	li {
-		 	margin-bottom: .5em;
-	 	}
- 	}
- 	
- 	p {
-	 	padding: 1.25em 0 0 0;
-	 	width: 50%;
-	 	font-size: 1em;
- 	}
-}
-
-.dvs-version {
-	font-size: 1.5em;
-	margin-bottom: .5em;
-}
-
 //Mobile Style ... break point from Bootstrap
 @media (max-width: $screen-sm-min) { 
 	$footer-size-mobile: $footer-size + 8em;

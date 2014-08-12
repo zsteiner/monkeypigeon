@@ -974,7 +974,7 @@ body {
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
-  background-position-y: 20%;
+  background-position-y: 30%;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -987,13 +987,16 @@ h1 {
 /* line 27, ../sass/monkeypigeon.scss */
 h2 {
   margin: .25em 5rem;
-  font-size: 3em; }
+  font-size: 2em;
+  letter-spacing: .1em;
+  font-weight: lighter;
+  text-transform: uppercase; }
 
-/* line 32, ../sass/monkeypigeon.scss */
+/* line 35, ../sass/monkeypigeon.scss */
 a {
   text-decoration: none; }
 
-/* line 37, ../sass/monkeypigeon.scss */
+/* line 40, ../sass/monkeypigeon.scss */
 aside .aside-content {
   padding: 1em; }
 
@@ -1039,44 +1042,21 @@ html, body {
 footer, .page-wrap:after {
   height: 6em; }
 
-/* line 22, ../sass/_footer-sticky.scss */
-footer {
-  margin: 0;
-  font-weight: 300; }
-  /* line 26, ../sass/_footer-sticky.scss */
-  footer .address {
-    float: right;
-    padding-top: 1.5em;
-    font-size: 1em; }
-    /* line 31, ../sass/_footer-sticky.scss */
-    footer .address li {
-      margin-bottom: .5em; }
-  /* line 36, ../sass/_footer-sticky.scss */
-  footer p {
-    padding: 1.25em 0 0 0;
-    width: 50%;
-    font-size: 1em; }
-
-/* line 43, ../sass/_footer-sticky.scss */
-.dvs-version {
-  font-size: 1.5em;
-  margin-bottom: .5em; }
-
 @media (max-width: 768px) {
-  /* line 52, ../sass/_footer-sticky.scss */
+  /* line 26, ../sass/_footer-sticky.scss */
   .page-wrap {
     margin-bottom: -14em; }
 
-  /* line 56, ../sass/_footer-sticky.scss */
+  /* line 30, ../sass/_footer-sticky.scss */
   footer, .page-wrap:after {
     height: 14em; } }
 @media (max-width: 768px) {
-  /* line 50, ../sass/monkeypigeon.scss */
+  /* line 52, ../sass/monkeypigeon.scss */
   h1 {
     font-size: 3em;
     margin: .5em 2rem; }
 
-  /* line 55, ../sass/monkeypigeon.scss */
+  /* line 57, ../sass/monkeypigeon.scss */
   h2 {
     font-size: 1.5em;
     margin: 0 2rem; } }

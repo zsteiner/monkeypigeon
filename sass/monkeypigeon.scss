@@ -13,7 +13,7 @@ body {
 header {
 	height: 24em;
 	background-image: url('../images/monkeypigeon.jpg');
-	background-position-y: 20%;
+	background-position-y: 30%;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -26,7 +26,10 @@ h1 {
 
 h2 {
 	margin: .25em 5rem;
-	font-size: 3em;
+	font-size: 2em;
+	letter-spacing: .1em;
+	font-weight: lighter;
+	text-transform: uppercase;
 }
 
 a {
@@ -40,7 +43,6 @@ aside {
 }
 
 @import 'nav';
-
 @import 'footer';
 
 
