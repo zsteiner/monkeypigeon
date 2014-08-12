@@ -1,3 +1,5 @@
+@charset "UTF-8";
+@import url("//hello.myfonts.net/count/2ba876");
 /* line 5, ../sass/_reset.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -966,11 +968,56 @@ textarea {
   /* line 840, ../sass/bootstrap/_mixins.scss */
   .col-lg-offset-12 {
     margin-left: 100%; } }
-/* line 9, ../sass/monkeypigeon.scss */
+/**
+ * @license
+ * MyFonts Webfont Build ID 2861174, 2014-08-11T20:49:10-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
+ * 
+ * Webfont: Proxima Nova S Thin by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-thin/
+ * 
+ * Webfont: Proxima Nova Thin Italic by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin-it/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2861174
+ * Licensed pageviews: 1,000,000
+ * Webfonts copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * 
+ * © 2014 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/2BA876_0_0.eot");
+  src: url("../fonts/ProximaNova/2BA876_0_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/2BA876_0_0.woff") format("woff"), url("../fonts/ProximaNova/2BA876_0_0.ttf") format("truetype"), url("../fonts/ProximaNova/2BA876_0_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'ProximaNova';
+  font-weight: bold;
+  font-style: normal;
+  src: url("../fonts/ProximaNova/2BA876_1_0.eot");
+  src: url("../fonts/ProximaNova/2BA876_1_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/2BA876_1_0.woff") format("woff"), url("../fonts/ProximaNova/2BA876_1_0.ttf") format("truetype"), url("../fonts/ProximaNova/2BA876_1_0.svg#wf") format("svg"); }
+@font-face {
+  font-family: 'ProximaNova';
+  font-weight: normal;
+  font-style: italic;
+  src: url("../fonts/ProximaNova/2BA876_2_0.eot");
+  src: url("../fonts/ProximaNova/2BA876_2_0.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova/2BA876_2_0.woff") format("woff"), url("../fonts/ProximaNova/2BA876_2_0.ttf") format("truetype"), url("../fonts/ProximaNova/2BA876_2_0.svg#wf") format("svg"); }
+/* line 6, ../sass/_typography.scss */
 body {
-  font-family: Avenir, Helvetica, Arial, sans-serif; }
+  font-family: "ProximaNova", Helvetica, Arial, sans-serif; }
 
-/* line 13, ../sass/monkeypigeon.scss */
+/* line 10, ../sass/monkeypigeon.scss */
 header {
   height: 24em;
   background-image: url("../images/monkeypigeon.jpg");
@@ -978,13 +1025,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* line 21, ../sass/monkeypigeon.scss */
+/* line 18, ../sass/monkeypigeon.scss */
 h1 {
   margin: .5em 5rem;
   font-size: 5em;
-  font-family: Didot, Georgia Pro, Georgia, Times New Roman, serif; }
+  font-family: Georgia Pro, Georgia, Times New Roman, serif; }
 
-/* line 27, ../sass/monkeypigeon.scss */
+/* line 24, ../sass/monkeypigeon.scss */
 h2 {
   margin: .25em 5rem;
   font-size: 2em;
@@ -992,11 +1039,11 @@ h2 {
   font-weight: lighter;
   text-transform: uppercase; }
 
-/* line 35, ../sass/monkeypigeon.scss */
+/* line 32, ../sass/monkeypigeon.scss */
 a {
   text-decoration: none; }
 
-/* line 40, ../sass/monkeypigeon.scss */
+/* line 37, ../sass/monkeypigeon.scss */
 aside .aside-content {
   padding: 1em; }
 
@@ -1051,12 +1098,12 @@ footer, .page-wrap:after {
   footer, .page-wrap:after {
     height: 14em; } }
 @media (max-width: 768px) {
-  /* line 52, ../sass/monkeypigeon.scss */
+  /* line 50, ../sass/monkeypigeon.scss */
   h1 {
     font-size: 3em;
     margin: .5em 2rem; }
 
-  /* line 57, ../sass/monkeypigeon.scss */
+  /* line 55, ../sass/monkeypigeon.scss */
   h2 {
     font-size: 1.5em;
     margin: 0 2rem; } }

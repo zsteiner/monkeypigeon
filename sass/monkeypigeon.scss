@@ -4,11 +4,8 @@
 @import 'bootstrap/mixins';
 @import 'bootstrap/grid';
 
+@import 'typography';
 @import 'variables';
-
-body {
-	font-family: $font-stack-sans-serif;
-}
 
 header {
 	height: 24em;
@@ -41,6 +38,7 @@ aside {
 		padding: 1em;
 	}
 }
+
 
 @import 'nav';
 @import 'footer';

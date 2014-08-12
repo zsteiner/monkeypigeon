@@ -30,11 +30,21 @@
 @import url("//hello.myfonts.net/count/2ba876");
 
   
-@font-face {font-family: 'ProximaNova';font-weight: normal;font-style: normal;src: url('webfonts/2BA876_0_0.eot');src: url('webfonts/2BA876_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA876_0_0.woff') format('woff'),url('webfonts/2BA876_0_0.ttf') format('truetype'),url('webfonts/2BA876_0_0.svg#wf') format('svg');}
+@font-face {
+	font-family: 'ProximaNova';
+	font-weight: normal;
+	font-style: normal;
+
+	src:	url('../fonts/ProximaNova/2BA876_0_0.eot');
+	src:	url('../fonts/ProximaNova/2BA876_0_0.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/ProximaNova/2BA876_0_0.woff') format('woff'),
+			url('../fonts/ProximaNova/2BA876_0_0.ttf') format('truetype'),
+			url('../fonts/ProximaNova/2BA876_0_0.svg#wf') format('svg');
+}
  
   
-@font-face {font-family: 'ProximaNova';font-weight: bold;font-style: normal;src: url('webfonts/2BA876_1_0.eot');src: url('webfonts/2BA876_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA876_1_0.woff') format('woff'),url('webfonts/2BA876_1_0.ttf') format('truetype'),url('webfonts/2BA876_1_0.svg#wf') format('svg');}
+@font-face {font-family: 'ProximaNova';font-weight: bold;font-style: normal;src: url('../fonts/ProximaNova/2BA876_1_0.eot');src: url('../fonts/ProximaNova/2BA876_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova/2BA876_1_0.woff') format('woff'),url('../fonts/ProximaNova/2BA876_1_0.ttf') format('truetype'),url('../fonts/ProximaNova/2BA876_1_0.svg#wf') format('svg');}
  
   
-@font-face {font-family: 'ProximaNova';font-weight: normal;font-style: italic;src: url('webfonts/2BA876_2_0.eot');src: url('webfonts/2BA876_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2BA876_2_0.woff') format('woff'),url('webfonts/2BA876_2_0.ttf') format('truetype'),url('webfonts/2BA876_2_0.svg#wf') format('svg');}
+@font-face {font-family: 'ProximaNova';font-weight: normal;font-style: italic;src: url('../fonts/ProximaNova/2BA876_2_0.eot');src: url('../fonts/ProximaNova/2BA876_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/ProximaNova/2BA876_2_0.woff') format('woff'),url('../fonts/ProximaNova/2BA876_2_0.ttf') format('truetype'),url('../fonts/ProximaNova/2BA876_2_0.svg#wf') format('svg');}
  
