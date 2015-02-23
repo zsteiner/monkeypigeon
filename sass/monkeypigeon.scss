@@ -44,6 +44,43 @@ aside {
 @import 'footer';
 
 
+.flag {
+	position: relative;
+	background-color: $blue;
+	color: white;
+	padding: 1rem;
+	min-height: 16rem;
+	width: 16rem;
+	text-align: center;
+}
+
+.flag h1 {
+	font-size: 4em;
+	margin: 1rem 0;
+}
+
+.flag:before, .flag:after {
+	position: absolute;
+	content: " ";
+	width: 0;
+	height: 0;
+	bottom: -5rem;
+	border-style: solid;
+}
+
+.flag:before {
+	left: 0;
+	border-width: 5rem 8rem 0 0;
+	border-color: $blue transparent transparent transparent;		
+}
+
+.flag:after {
+	right: 0;
+	border-width: 0 8rem 5rem 0;
+	border-color: transparent $blue transparent transparent;		
+}
+
+
 //Mobile Style ... break point from Bootstrap
 @media (max-width: $screen-sm-min) { 
 	
