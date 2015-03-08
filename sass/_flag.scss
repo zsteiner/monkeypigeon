@@ -1,0 +1,37 @@
+$flag-width: 20rem;
+$point-width: $flag-width / 2;
+$point-height: $flag-width / 4;
+
+.flag {
+	position: relative;
+	background-color: $blue;
+	color: white;
+	padding: 1rem;
+	min-height: 24rem;
+	width: $flag-width;
+}
+
+.flag h1 {
+	margin: 1rem 0;
+}
+
+.flag:before, .flag:after {
+	position: absolute;
+	content: " ";
+	width: 0;
+	height: 0;
+	bottom: -$point-height;
+	border-style: solid;
+}
+
+.flag:before {
+	left: 0;
+	border-width: $point-height $point-width 0 0;
+	border-color: $blue transparent transparent transparent;		
+}
+
+.flag:after {
+	right: 0;
+	border-width: 0 $point-width $point-height 0;
+	border-color: transparent $blue transparent transparent;		
+}

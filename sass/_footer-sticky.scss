@@ -1,4 +1,4 @@
-$footer-size: 6em;
+$footer-size: 4em;
 
 html, body {
   height: 100%;
@@ -21,7 +21,7 @@ footer, .page-wrap:after {
 
 //Mobile Style ... break point from Bootstrap
 @media (max-width: $screen-sm-min) { 
-	$footer-size-mobile: $footer-size + 8em;
+	$footer-size-mobile: $footer-size;
 		
 	.page-wrap {
 	  margin-bottom: -$footer-size-mobile;

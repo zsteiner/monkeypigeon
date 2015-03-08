@@ -1,110 +1,198 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18027",
+"creatorBuild": "18493",
 "files": {
-	"\/config.rb": {
-		"fileType": 131072,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/config.rb",
-		"outputAbbreviatedPath": "\/config.rb",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/absolute.html": {
+	"\/absolute.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/absolute.html",
+		"inputAbbreviatedPath": "\/absolute.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/absolute.css": {
+	"\/css\/absolute.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/absolute.css",
+		"inputAbbreviatedPath": "\/css\/absolute.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/ie.css": {
+	"\/css\/ie.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/ie.css",
+		"inputAbbreviatedPath": "\/css\/ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/monkeypigeon.css": {
+	"\/css\/monkeypigeon.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/monkeypigeon.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/nirvana-custom.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/monkeypigeon.css",
+		"inputAbbreviatedPath": "\/css\/nirvana-custom.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/print.css": {
+	"\/css\/print.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/print.css",
+		"inputAbbreviatedPath": "\/css\/print.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/screen.css": {
+	"\/css\/screen.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/css\/screen.css",
+		"inputAbbreviatedPath": "\/css\/screen.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/images\/monkeypigeon.jpg": {
+	"\/eagle.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/eagle.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/images\/monkeypigeon.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 113664,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/images\/monkeypigeon.jpg",
-		"outputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/images\/monkeypigeon.jpg",
+		"inputAbbreviatedPath": "\/images\/monkeypigeon.jpg",
+		"outputAbbreviatedPath": "\/images\/monkeypigeon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/index.html": {
+	"\/images\/monkeypigeonwatercolor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 361595,
+		"inputAbbreviatedPath": "\/images\/monkeypigeonwatercolor.png",
+		"outputAbbreviatedPath": "\/images\/monkeypigeonwatercolor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/weddingheader.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32287,
+		"inputAbbreviatedPath": "\/images\/weddingheader.png",
+		"outputAbbreviatedPath": "\/images\/weddingheader.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/index.html",
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/README.md": {
+	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/README.md",
-		"outputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/README.html",
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_footer-sticky.scss": {
+	"\/registry.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/registry.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/sass\/_aside.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_footer-sticky.scss",
+		"inputAbbreviatedPath": "\/sass\/_aside.scss",
+		"outputAbbreviatedPath": "\/css\/_aside.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_button-mobile-menu.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_button-mobile-menu.scss",
+		"outputAbbreviatedPath": "\/css\/_button-mobile-menu.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_flag.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_flag.scss",
+		"outputAbbreviatedPath": "\/css\/_flag.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/_footer-sticky.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/_footer-sticky.scss",
 		"outputAbbreviatedPath": "\/css\/_footer-sticky.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -113,14 +201,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_footer.scss": {
+	"\/sass\/_footer.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_footer.scss",
+		"inputAbbreviatedPath": "\/sass\/_footer.scss",
 		"outputAbbreviatedPath": "\/css\/_footer.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -129,14 +217,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_nav.scss": {
+	"\/sass\/_nav.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_nav.scss",
+		"inputAbbreviatedPath": "\/sass\/_nav.scss",
 		"outputAbbreviatedPath": "\/css\/_nav.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -145,14 +233,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_ProximaNova.scss": {
+	"\/sass\/_ProximaNova.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_ProximaNova.scss",
+		"inputAbbreviatedPath": "\/sass\/_ProximaNova.scss",
 		"outputAbbreviatedPath": "\/css\/_ProximaNova.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -161,14 +249,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_reset.scss": {
+	"\/sass\/_reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_reset.scss",
+		"inputAbbreviatedPath": "\/sass\/_reset.scss",
 		"outputAbbreviatedPath": "\/css\/_reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -177,14 +265,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_typography.scss": {
+	"\/sass\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_typography.scss",
+		"inputAbbreviatedPath": "\/sass\/_typography.scss",
 		"outputAbbreviatedPath": "\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -193,14 +281,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_variables.scss": {
+	"\/sass\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/_variables.scss",
+		"inputAbbreviatedPath": "\/sass\/_variables.scss",
 		"outputAbbreviatedPath": "\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -209,15 +297,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_alerts.scss": {
+	"\/sass\/bootstrap\/_alerts.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_alerts.scss",
-		"outputAbbreviatedPath": "\/css\/_alerts.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_alerts.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_alerts.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -225,15 +313,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_badges.scss": {
+	"\/sass\/bootstrap\/_badges.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_badges.scss",
-		"outputAbbreviatedPath": "\/css\/_badges.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_badges.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_badges.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -241,15 +329,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_breadcrumbs.scss": {
+	"\/sass\/bootstrap\/_breadcrumbs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_breadcrumbs.scss",
-		"outputAbbreviatedPath": "\/css\/_breadcrumbs.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_breadcrumbs.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_breadcrumbs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -257,15 +345,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_button-groups.scss": {
+	"\/sass\/bootstrap\/_button-groups.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_button-groups.scss",
-		"outputAbbreviatedPath": "\/css\/_button-groups.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_button-groups.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_button-groups.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -273,15 +361,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_buttons.scss": {
+	"\/sass\/bootstrap\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_buttons.scss",
-		"outputAbbreviatedPath": "\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_buttons.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -289,15 +377,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_carousel.scss": {
+	"\/sass\/bootstrap\/_carousel.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_carousel.scss",
-		"outputAbbreviatedPath": "\/css\/_carousel.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_carousel.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -305,15 +393,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_close.scss": {
+	"\/sass\/bootstrap\/_close.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_close.scss",
-		"outputAbbreviatedPath": "\/css\/_close.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_close.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_close.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -321,15 +409,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_code.scss": {
+	"\/sass\/bootstrap\/_code.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_code.scss",
-		"outputAbbreviatedPath": "\/css\/_code.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_code.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_code.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -337,15 +425,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_component-animations.scss": {
+	"\/sass\/bootstrap\/_component-animations.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_component-animations.scss",
-		"outputAbbreviatedPath": "\/css\/_component-animations.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_component-animations.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_component-animations.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -353,15 +441,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_dropdowns.scss": {
+	"\/sass\/bootstrap\/_dropdowns.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_dropdowns.scss",
-		"outputAbbreviatedPath": "\/css\/_dropdowns.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_dropdowns.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_dropdowns.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -369,15 +457,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_forms.scss": {
+	"\/sass\/bootstrap\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_forms.scss",
-		"outputAbbreviatedPath": "\/css\/_forms.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_forms.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -385,15 +473,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_glyphicons.scss": {
+	"\/sass\/bootstrap\/_glyphicons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_glyphicons.scss",
-		"outputAbbreviatedPath": "\/css\/_glyphicons.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_glyphicons.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_glyphicons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -401,15 +489,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_grid.scss": {
+	"\/sass\/bootstrap\/_grid.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_grid.scss",
-		"outputAbbreviatedPath": "\/css\/_grid.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_grid.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -417,15 +505,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_input-groups.scss": {
+	"\/sass\/bootstrap\/_input-groups.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_input-groups.scss",
-		"outputAbbreviatedPath": "\/css\/_input-groups.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_input-groups.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_input-groups.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -433,15 +521,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_jumbotron.scss": {
+	"\/sass\/bootstrap\/_jumbotron.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_jumbotron.scss",
-		"outputAbbreviatedPath": "\/css\/_jumbotron.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_jumbotron.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_jumbotron.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -449,15 +537,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_labels.scss": {
+	"\/sass\/bootstrap\/_labels.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_labels.scss",
-		"outputAbbreviatedPath": "\/css\/_labels.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_labels.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_labels.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -465,15 +553,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_list-group.scss": {
+	"\/sass\/bootstrap\/_list-group.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_list-group.scss",
-		"outputAbbreviatedPath": "\/css\/_list-group.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_list-group.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_list-group.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -481,15 +569,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_media.scss": {
+	"\/sass\/bootstrap\/_media.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_media.scss",
-		"outputAbbreviatedPath": "\/css\/_media.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_media.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_media.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -497,15 +585,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_mixins.scss": {
+	"\/sass\/bootstrap\/_mixins.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_mixins.scss",
-		"outputAbbreviatedPath": "\/css\/_mixins.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_mixins.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -513,15 +601,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_modals.scss": {
+	"\/sass\/bootstrap\/_modals.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_modals.scss",
-		"outputAbbreviatedPath": "\/css\/_modals.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_modals.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_modals.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -529,15 +617,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_navbar.scss": {
+	"\/sass\/bootstrap\/_navbar.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_navbar.scss",
-		"outputAbbreviatedPath": "\/css\/_navbar.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_navbar.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_navbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -545,15 +633,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_navs.scss": {
+	"\/sass\/bootstrap\/_navs.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_navs.scss",
-		"outputAbbreviatedPath": "\/css\/_navs.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_navs.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_navs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -561,15 +649,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_normalize.scss": {
+	"\/sass\/bootstrap\/_normalize.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_normalize.scss",
-		"outputAbbreviatedPath": "\/css\/_normalize.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_normalize.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_normalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -577,15 +665,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_pager.scss": {
+	"\/sass\/bootstrap\/_pager.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_pager.scss",
-		"outputAbbreviatedPath": "\/css\/_pager.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_pager.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_pager.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -593,15 +681,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_pagination.scss": {
+	"\/sass\/bootstrap\/_pagination.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_pagination.scss",
-		"outputAbbreviatedPath": "\/css\/_pagination.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_pagination.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -609,15 +697,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_panels.scss": {
+	"\/sass\/bootstrap\/_panels.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_panels.scss",
-		"outputAbbreviatedPath": "\/css\/_panels.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_panels.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_panels.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -625,15 +713,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_popovers.scss": {
+	"\/sass\/bootstrap\/_popovers.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_popovers.scss",
-		"outputAbbreviatedPath": "\/css\/_popovers.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_popovers.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_popovers.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -641,15 +729,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_print.scss": {
+	"\/sass\/bootstrap\/_print.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_print.scss",
-		"outputAbbreviatedPath": "\/css\/_print.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_print.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_print.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -657,15 +745,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_progress-bars.scss": {
+	"\/sass\/bootstrap\/_progress-bars.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_progress-bars.scss",
-		"outputAbbreviatedPath": "\/css\/_progress-bars.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_progress-bars.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_progress-bars.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -673,15 +761,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_responsive-utilities.scss": {
+	"\/sass\/bootstrap\/_responsive-utilities.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_responsive-utilities.scss",
-		"outputAbbreviatedPath": "\/css\/_responsive-utilities.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_responsive-utilities.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_responsive-utilities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -689,15 +777,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_scaffolding.scss": {
+	"\/sass\/bootstrap\/_scaffolding.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_scaffolding.scss",
-		"outputAbbreviatedPath": "\/css\/_scaffolding.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_scaffolding.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_scaffolding.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -705,15 +793,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_tables.scss": {
+	"\/sass\/bootstrap\/_tables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_tables.scss",
-		"outputAbbreviatedPath": "\/css\/_tables.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_tables.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_tables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -721,15 +809,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_theme.scss": {
+	"\/sass\/bootstrap\/_theme.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_theme.scss",
-		"outputAbbreviatedPath": "\/css\/_theme.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_theme.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_theme.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -737,15 +825,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_thumbnails.scss": {
+	"\/sass\/bootstrap\/_thumbnails.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_thumbnails.scss",
-		"outputAbbreviatedPath": "\/css\/_thumbnails.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_thumbnails.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_thumbnails.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -753,15 +841,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_tooltip.scss": {
+	"\/sass\/bootstrap\/_tooltip.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_tooltip.scss",
-		"outputAbbreviatedPath": "\/css\/_tooltip.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_tooltip.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -769,15 +857,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_type.scss": {
+	"\/sass\/bootstrap\/_type.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_type.scss",
-		"outputAbbreviatedPath": "\/css\/_type.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_type.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_type.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -785,15 +873,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_utilities.scss": {
+	"\/sass\/bootstrap\/_utilities.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_utilities.scss",
-		"outputAbbreviatedPath": "\/css\/_utilities.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_utilities.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_utilities.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -801,15 +889,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_variables.scss": {
+	"\/sass\/bootstrap\/_variables.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_variables.scss",
-		"outputAbbreviatedPath": "\/css\/_variables.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_variables.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_variables.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -817,15 +905,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_wells.scss": {
+	"\/sass\/bootstrap\/_wells.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/_wells.scss",
-		"outputAbbreviatedPath": "\/css\/_wells.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/_wells.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_wells.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -833,15 +921,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/bootstrap.scss": {
+	"\/sass\/bootstrap\/bootstrap.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/bootstrap\/bootstrap.scss",
-		"outputAbbreviatedPath": "\/css\/bootstrap.css",
+		"inputAbbreviatedPath": "\/sass\/bootstrap\/bootstrap.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/bootstrap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -849,14 +937,14 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/monkeypigeon.scss": {
+	"\/sass\/monkeypigeon.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
-		"decimalPrecision": 5,
+		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/sass\/monkeypigeon.scss",
+		"inputAbbreviatedPath": "\/sass\/monkeypigeon.scss",
 		"outputAbbreviatedPath": "\/css\/monkeypigeon.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -865,27 +953,45 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/html5shiv.min.js": {
+	"\/scripts\/html5shiv.min.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/html5shiv.min.js",
-		"outputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/min\/html5shiv.min-min.js",
+		"inputAbbreviatedPath": "\/scripts\/html5shiv.min.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/html5shiv.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
-	"\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/monkeypigeon.js": {
+	"\/scripts\/monkeypigeon.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/monkeypigeon.js",
-		"outputAbbreviatedPath": "\/Users\/zsteiner\/Documents\/warlilydesign\/monkeypigeon\/scripts\/min\/monkeypigeon-min.js",
+		"inputAbbreviatedPath": "\/scripts\/monkeypigeon.js",
+		"outputAbbreviatedPath": "\/scripts\/min\/monkeypigeon-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
+		},
+	"\/team-monkey-pigeon.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/team-monkey-pigeon.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wedding.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wedding.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
@@ -897,7 +1003,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "monkeypigeon",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-facepalm"
+	"iconImageName": "compass_blue"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
@@ -936,6 +1042,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -1029,6 +1139,10 @@
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
 			}
 		},
 	"coffeeMinifyOutput": 1,
@@ -1058,7 +1172,7 @@
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
-	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathEnabled": 0,
 	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
@@ -1066,7 +1180,7 @@
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptSyntaxCheckerStyle": 1,
+	"javascriptSyntaxCheckerStyle": 0,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
@@ -1083,6 +1197,10 @@
 			},
 		"browser": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"camelcase": {
@@ -1107,6 +1225,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -1161,6 +1283,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"jquery": {
 			"active": 1,
 			"flagValue": -1
@@ -1204,6 +1330,10 @@
 		"maxstatements": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"mootools": {
 			"active": 0,
@@ -1273,6 +1403,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -1290,6 +1424,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1479,12 +1617,12 @@
 	"sassAutoOutputPathStyle": 2,
 	"sassCreateSourceMap": 0,
 	"sassDebugStyle": 0,
-	"sassDecimalPrecision": 5,
+	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
 	"sassUseLibsass": 0,
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
-	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs, node_modules",
 	"slimAutoOutputPathEnabled": 1,
 	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
@@ -1493,6 +1631,7 @@
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
 	"stylusAutoOutputPathEnabled": 1,
@@ -1517,8 +1656,9 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
@@ -1555,6 +1695,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -1598,6 +1742,10 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -1610,8 +1758,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

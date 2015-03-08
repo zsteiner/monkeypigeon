@@ -1,0 +1,64 @@
+@import 'flag';
+
+aside {
+    padding:  0 1rem;
+    height: 100%;
+    
+	p {
+    	margin-bottom: 1em;
+    	line-height: 1.5;
+    	font-family: $font-stack-sans-serif;
+    	color: $black;
+	}
+}
+
+.aside-content {
+	padding: 2rem 1rem 2em;
+	
+	h1 {
+        color: white;    		
+	}
+	
+	h3 {
+    	margin-top: 1.5em;
+    	
+    	&:first-child {
+            margin-top: 0;	
+    	}
+	}
+}
+
+.flag {
+    a {
+        color: white;
+        
+        &:hover {
+            color: darken($blue, 30%);
+        }
+    }
+}
+
+@media (max-width: $screen-sm-min) { 
+    .aside-content.flag {
+        background-color: white;
+        width: auto;
+        padding: 0 0 2em;
+        
+        h1, h2, h3, h4, h5 {
+            color: $charcoal;
+        }
+        
+        a {
+            color: $blue;
+            
+            &:hover {
+                color: darken($blue, 20%)
+            }
+        }
+        
+        &:after, &:before {
+            content: none;
+        }
+    }
+
+}
