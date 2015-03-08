@@ -1,10 +1,11 @@
-$flag-width: 20rem;
+$flag-width: 18rem;
 $point-width: $flag-width / 2;
 $point-height: $flag-width / 4;
+$flag-color: $blue;
 
 .flag {
 	position: relative;
-	background-color: $blue;
+	background-color: $flag-color;
 	color: white;
 	padding: 1rem;
 	min-height: 24rem;
@@ -27,11 +28,11 @@ $point-height: $flag-width / 4;
 .flag:before {
 	left: 0;
 	border-width: $point-height $point-width 0 0;
-	border-color: $blue transparent transparent transparent;		
+	border-color: $flag-color transparent transparent transparent;		
 }
 
 .flag:after {
 	right: 0;
 	border-width: 0 $point-width $point-height 0;
-	border-color: transparent $blue transparent transparent;		
+	border-color: transparent $flag-color transparent transparent;		
 }

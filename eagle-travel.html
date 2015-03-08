@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Jackie and Zach: Eagle, CO</title>
+		<title>Jackie and Zach: Traveling to Eagle</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, intial-scale=1">
 		<link rel="stylesheet" href="css/monkeypigeon.css" type="text/css" media="screen">
@@ -57,7 +57,7 @@
             		<li><a href="eagle.html" class="current">Eagle</a>
             		    <ul class="nav-submenu">
                 		    <li><a href="eagle-travel.html">Getting Here</a></li>
-                		    <li><a href="e">Staying in the Area</a></li>
+                		    <li><a href="eagle-staying.html">Staying in the Area</a></li>
             		    </ul>
             		</li>
             		<li><a href="registry.html">Registry</a></li>
@@ -66,48 +66,33 @@
     		<div class="main-content">
         		<main role="main">
             		<section>
-                        <h1>Eagle</h1>
-                        <h4>Welcome to beautiful Eagle, CO!</h4>
+                        <h1>Getting Here</h1>
                         
-                        <div class="map-container" id="map-canvas"></div>
+                        <h3>Flying to Colorado</h3>
+                        <p>Most guests will fly through Denver International Airport, though there are limited flights in to the <a href="http://www.eaglecounty.us/airport/">Eagle County Regional Airport</a> in Gypsum, CO.</p>
+            		</section>
+                    <section>
+                        
+                        <h3>Traveling to Eagle by Car</h3>
+                        
+                        <p>Cars can be rented at DIA or the Eagle County Airport. For those renting cars in Eagle, the Colorado Mountain Express is available to shuttle guests between DIA and Eagle. Be advised that the CME shuttle schedule changes seasonally, and that not all routes and times available during the ski season are offered year-round.</p>
             		</section>
         		</main>
         		<aside>
             		<div class="aside-content flag">
-                        <h5>How to Find Us</h5>
-                        <p><a href="https://www.google.com/maps/dir/Current+Location/place/0047+Hollyhock+Ct+Eagle+CO+81631">
-                                <svg class="icon icon-hotel"><use xlink:href="#icon-place"></use></svg>Directions to the house</a></p>
-                        <h5>Getting Here</h5>
-                        <p><a href="eagle-travel.html"><svg class="icon icon-flight"><use xlink:href="#icon-flight"></use></svg>Travel information</a></p>
-                        <h5>Staying in the Area</h5>
-                        <p><a href="eagle-staying.html"><svg class="icon icon-hotel"><use xlink:href="#icon-hotel"></use></svg>Hotel and rental information</a></p>
+                        <h5>Shuttles</h5>
+                        <p><a href="http://www.coloradomountainexpress.com">Colorado Mountain Express</a></p>
+                        
+                        <h5>Car Rental</h5>
+                        <p><a href="http://www.flyvail.com/html/parking-transportation/rental-cars.html">Eagle County Airport Car Rentals</a></p>
+                        <p><a href="http://www.flydenver.com/parking_transit/car-rentals">Denver International Airport Rentals</a></p>
             		</div>
         		</aside>
     		</div>
 		</div>
-        <footer>
-        	<p>Copyright Jackie Glimp & Zach Steiner, 2015. All rights reserved. We love each other, yo.</p>
-        </footer>
-        <script>
-          function initialize() {
-            var myLatlng = new google.maps.LatLng(39.62171,-106.79866);
-            var mapOptions = {
-              center: myLatlng,
-              zoom: 10,
-              scrollwheel: false,
-              mapTypeId: google.maps.MapTypeId.TERRAIN
-            };
-            var map = new google.maps.Map(document.getElementById('map-canvas'),
-                mapOptions);
-        
-          var marker = new google.maps.Marker({
-              position: myLatlng,
-              map: map,
-              title: 'Glimp Residence'
-          });
-          }
-          google.maps.event.addDomListener(window, 'load', initialize);	
-        </script>
+		<footer>
+    		<p>Copyright Jackie Glimp & Zach Steiner, 2015. All rights reserved. We love each other, yo.</p>
+		</footer>
 	        
         <!-- Google Analytics Tracking Code -->
         <script>
@@ -120,4 +105,5 @@
           ga('send', 'pageview');
         </script>
 	</body>
+	
 </html>

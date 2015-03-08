@@ -1,0 +1,57 @@
+.main-content {
+    @include outer-container;
+    $mobile: new-breakpoint(max-width $screen-sm-min 4);
+    
+    padding: 0 1rem;
+    min-height: 100%;
+    
+    main {
+        @include span-columns(8);
+
+        @include media($mobile) {
+          @include span-columns(12);
+        }        
+    }
+    
+    aside {
+        @include span-columns(4);
+        min-height: 30em;
+
+        @include media($mobile) {
+          @include span-columns(12);
+          min-height: auto;
+        }
+    }
+}
+
+main {
+    min-height: 100%;
+    padding: 2rem 1em 1em;
+        
+    section + section {
+        margin-top: 3em;
+    }
+}
+
+main.section-landing {
+     text-align: center; 
+}
+
+main.full-width {
+    @include fill-parent();
+    padding: 1rem 0 !important;
+}
+
+//Mobile Style ... break point from Bootstrap
+@media (max-width: $screen-sm-min) { 
+    .main-content {
+        
+        main {
+            @include fill-parent();
+        }
+        
+        aside {
+            @include fill-parent();
+        }
+    }    
+}

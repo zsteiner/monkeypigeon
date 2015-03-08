@@ -43,3 +43,61 @@ p {
     margin-bottom: 1em;
 }
 
+.superscript {
+    vertical-align: super;
+    font-size: 75%;
+}
+
+.smallcaps {
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+    color: $blue;
+    background-image: linear-gradient(transparent 50%, currentColor 50%);
+    background-repeat: repeat-x;
+    background-size: .1em .1em;
+    background-position: 0 .875em;
+    
+    &:hover {
+        color: darken($blue, 20%);
+        background-image: linear-gradient(transparent 50%, currentColor 50%);
+    }
+}
+
+
+.heading-break {
+    display: block;
+}
+
+//Mobile Style ... break point from Bootstrap
+@media (max-width: $screen-sm-min) {     
+    h1 {
+        font-size: 2.25rem;
+    }
+    
+    h2 {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.75rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    h5 {
+        font-size: 1.25rem;
+    }
+   
+    header {
+        h1 {
+            height: 6rem;
+            margin: 0 1rem;
+            background-position: left center;
+        }
+    }
+}

@@ -1,0 +1,122 @@
+header {
+    text-align: center;
+    padding: 1rem 0;
+    
+    a {
+        display: block;
+        @include link-no-border;
+    }
+    
+    h1 {
+        background: url(../images/weddingheader.png) no-repeat center top;
+        background-size: contain;
+        height: 4em;
+        height: 10rem;
+        margin: 0 auto;
+        text-indent: -999em;
+    }
+}
+
+.index-sub {
+    color: $grey;
+}
+
+.watercolor-container {
+    background: url(../images/monkeypigeonwatercolor.png) no-repeat top center;
+    background-size: contain;
+    margin: 2rem auto;
+    height: 24em;
+}
+
+.monkeypigeon-container {
+    background: url(../images/monkeypigeon.jpg) no-repeat center center;
+    background-size: cover;
+    margin-bottom: 2rem;
+    height: 18em;
+}
+
+.section-list {
+    h5 {
+        margin-top: 1.5em;
+        
+        ~ p {
+            margin-left: 1em;
+        }
+    }
+}
+
+.map-container {
+    width: 100%;
+    margin: 2rem 0;
+    height: 26em;
+}
+
+.sub-text {
+    color: lighten($charcoal, 20%);
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.bullet-list {
+    padding-left: 2em;
+    
+    li {
+        position: relative;
+        margin-bottom: 1em;
+        line-height: 1.5;
+        font-size: 1.125em;
+       	font-family: $font-stack-sans-serif;
+       	color: $black;
+        
+        &:before {
+            content: "";
+            display: inline-block;
+            border-top: 1px solid $grey;
+            width: .75em;
+            left: -1.25em;
+            top: .75em;
+            position: absolute;
+        }
+    }     
+}
+
+.button-bar {
+    li {
+        margin-bottom: 2em;        
+    }
+}
+
+.icon {
+	//display: inline-block;
+	display: none;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+    position: relative;
+}
+
+.button {
+    font-size: 1.5em;
+    font-family: $font-stack-sans-serif;
+    @include link-no-border;
+    display: block;
+    
+    .icon {
+        height: 1.25em;
+        width: 1.25em;
+        margin-right: .3em;
+        float: left;
+    }  
+}
+
+//Mobile Style ... break point from Bootstrap
+@media (max-width: $screen-sm-min) {     
+    header {
+        h1 {
+            height: 6rem;
+            margin: 0 1rem;
+            background-position: left center;
+        }
+    }
+}

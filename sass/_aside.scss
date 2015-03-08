@@ -8,18 +8,20 @@ aside {
     	margin-bottom: 1em;
     	line-height: 1.5;
     	font-family: $font-stack-sans-serif;
-    	color: $black;
+    	color: white;
 	}
 }
 
 .aside-content {
-	padding: 2rem 1rem 2em;
-	
+	padding: 1rem 1rem 2em;
+	margin-top: 2rem;
+   	border-left: 1px solid $grey;
+
 	h1 {
         color: white;    		
 	}
 	
-	h3 {
+	h3, h4, h5 {
     	margin-top: 1.5em;
     	
     	&:first-child {
@@ -28,12 +30,19 @@ aside {
 	}
 }
 
+.aside-content.flag {
+ 	padding: 2rem 1rem 2em;
+ 	margin-top: 0;   
+}
+
 .flag {
+    border: 0;
+    
     a {
-        color: white;
+        color: $blue-light;
         
         &:hover {
-            color: darken($blue, 30%);
+            color: darken($blue-light, 20%);
         }
     }
 }
@@ -42,7 +51,10 @@ aside {
     .aside-content.flag {
         background-color: white;
         width: auto;
-        padding: 0 0 2em;
+        padding: 0 1rem 1rem;
+        min-height: inherit;
+        margin-bottom: 1rem;
+       	border-left: 1px solid $grey;
         
         h1, h2, h3, h4, h5 {
             color: $charcoal;
