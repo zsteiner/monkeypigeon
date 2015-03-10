@@ -41,6 +41,7 @@ p {
     font-family: $font-stack-sans-serif;
     line-height: 1.75;
     margin-bottom: 1em;
+    color: $grey;
 }
 
 .superscript {
@@ -54,14 +55,14 @@ p {
 
 a {
     text-decoration: none;
-    color: $blue;
+    color: $green;
     background-image: linear-gradient(transparent 50%, currentColor 50%);
     background-repeat: repeat-x;
     background-size: .1em .1em;
     background-position: 0 .875em;
     
     &:hover {
-        color: darken($blue, 20%);
+        color: darken($green, 20%);
         background-image: linear-gradient(transparent 50%, currentColor 50%);
     }
 }

@@ -1,12 +1,11 @@
 $flag-width: 18rem;
 $point-width: $flag-width / 2;
 $point-height: $flag-width / 4;
-$flag-color: $blue;
+$flag-color: $blue-light;
 
 .flag {
 	position: relative;
 	background-color: $flag-color;
-	color: white;
 	padding: 1rem;
 	min-height: 24rem;
 	width: $flag-width;

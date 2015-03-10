@@ -119,7 +119,8 @@ h5 {
 p {
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
   line-height: 1.75;
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+  color: #616162; }
 
 .superscript {
   vertical-align: super;
@@ -130,14 +131,14 @@ p {
 
 a {
   text-decoration: none;
-  color: #3B698C;
+  color: #4fa191;
   background-image: -webkit-linear-gradient(transparent 50%, currentColor 50%);
   background-image: linear-gradient(transparent 50%, currentColor 50%);
   background-repeat: repeat-x;
   background-size: .1em .1em;
   background-position: 0 .875em; }
   a:hover {
-    color: #1d3344;
+    color: #2d5d53;
     background-image: -webkit-linear-gradient(transparent 50%, currentColor 50%);
     background-image: linear-gradient(transparent 50%, currentColor 50%); }
 
@@ -193,7 +194,7 @@ nav {
   nav li:hover a {
     background-color: #FBFBFB; }
   nav a:hover {
-    color: #3B698C; }
+    color: #4fa191; }
 
 .nav-submenu {
   display: none;
@@ -327,11 +328,11 @@ footer {
   padding: 1em;
   text-align: center;
   background: #3A3B3D;
-  color: white;
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif; }
   footer p {
     margin: 0;
-    font-size: .875rem; }
+    font-size: .875rem;
+    color: white; }
 
 html, body {
   height: 100%; }
@@ -414,7 +415,8 @@ main.full-width {
   .main-content main {
     width: 100%; }
   .main-content aside {
-    width: 100%; } }
+    width: 100%;
+    min-height: inherit; } }
 header {
   text-align: center;
   padding: 1rem 0; }
@@ -458,19 +460,19 @@ header {
 
 .sub-text {
   color: #6c6e71;
-  font-size: 1.25em;
-  font-style: italic;
-  line-height: 1.5; }
+  font-size: 1.5em;
+  line-height: 1.5;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif; }
 
 .bullet-list {
-  padding-left: 2em; }
+  padding-left: 2em;
+  color: #616162; }
   .bullet-list li {
     position: relative;
     margin-bottom: 1em;
     line-height: 1.5;
     font-size: 1.125em;
-    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-    color: black; }
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif; }
     .bullet-list li:before {
       content: "";
       display: inline-block;
@@ -484,24 +486,27 @@ header {
   margin-bottom: 2em; }
 
 .icon {
+  display: inline-block;
   display: none;
   width: 1em;
   height: 1em;
   fill: currentColor;
   position: relative; }
 
-.button {
-  font-size: 1.5em;
+.icon-link {
   font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  display: block;
   background: none;
-  display: block; }
-  .button:hover {
+  font-size: 1.75em;
+  line-height: 1;
+  margin: 2rem 0; }
+  .icon-link:hover {
     background: none; }
-  .button .icon {
-    height: 1.25em;
-    width: 1.25em;
+  .icon-link .icon {
     margin-right: .3em;
-    float: left; }
+    float: left;
+    font-size: 2em;
+    margin-bottom: 1em; }
 
 @media (max-width: 60em) {
   header h1 {
@@ -510,8 +515,7 @@ header {
     background-position: left center; } }
 .flag {
   position: relative;
-  background-color: #3B698C;
-  color: white;
+  background-color: #80b6db;
   padding: 1rem;
   min-height: 24rem;
   width: 18rem; }
@@ -530,12 +534,12 @@ header {
 .flag:before {
   left: 0;
   border-width: 4.5rem 9rem 0 0;
-  border-color: #3B698C transparent transparent transparent; }
+  border-color: #80b6db transparent transparent transparent; }
 
 .flag:after {
   right: 0;
   border-width: 0 9rem 4.5rem 0;
-  border-color: transparent #3B698C transparent transparent; }
+  border-color: transparent #80b6db transparent transparent; }
 
 aside {
   padding: 0 1rem;
@@ -549,9 +553,8 @@ aside {
 .aside-content {
   padding: 1rem 1rem 2em;
   margin-top: 2rem;
-  border-left: 1px solid #616162; }
-  .aside-content h1 {
-    color: white; }
+  border-left: 1px solid #616162;
+  color: white; }
   .aside-content h3, .aside-content h4, .aside-content h5 {
     margin-top: 1.5em; }
     .aside-content h3:first-child, .aside-content h4:first-child, .aside-content h5:first-child {
@@ -564,23 +567,25 @@ aside {
 .flag {
   border: 0; }
   .flag a {
-    color: #A3DEF9; }
+    color: white; }
     .flag a:hover {
-      color: #43bcf3; }
+      color: #212f62; }
 
 @media (max-width: 60em) {
   .aside-content.flag {
     background-color: white;
     width: auto;
     padding: 0 1rem 1rem;
-    min-height: inherit;
+    min-height: 0;
     margin-bottom: 1rem;
     border-left: 1px solid #616162; }
     .aside-content.flag h1, .aside-content.flag h2, .aside-content.flag h3, .aside-content.flag h4, .aside-content.flag h5 {
       color: #3A3B3D; }
     .aside-content.flag a {
-      color: #3B698C; }
+      color: #1b6395; }
       .aside-content.flag a:hover {
-        color: #1d3344; }
+        color: #0b2a3f; }
+    .aside-content.flag p {
+      color: #3A3B3D; }
     .aside-content.flag:after, .aside-content.flag:before {
       content: none; } }

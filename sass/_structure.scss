@@ -52,6 +52,7 @@ main.full-width {
         
         aside {
             @include fill-parent();
+            min-height: inherit;
         }
     }    
 }

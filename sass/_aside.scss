@@ -16,11 +16,8 @@ aside {
 	padding: 1rem 1rem 2em;
 	margin-top: 2rem;
    	border-left: 1px solid $grey;
+   	color: white;
 
-	h1 {
-        color: white;    		
-	}
-	
 	h3, h4, h5 {
     	margin-top: 1.5em;
     	
@@ -39,10 +36,10 @@ aside {
     border: 0;
     
     a {
-        color: $blue-light;
+        color: white;
         
         &:hover {
-            color: darken($blue-light, 20%);
+            color: $blue-dark;
         }
     }
 }
@@ -52,7 +49,7 @@ aside {
         background-color: white;
         width: auto;
         padding: 0 1rem 1rem;
-        min-height: inherit;
+        min-height: 0;
         margin-bottom: 1rem;
        	border-left: 1px solid $grey;
         
@@ -66,6 +63,10 @@ aside {
             &:hover {
                 color: darken($blue, 20%)
             }
+        }
+        
+        p {
+            color: $charcoal;
         }
         
         &:after, &:before {
