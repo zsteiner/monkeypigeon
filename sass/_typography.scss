@@ -5,9 +5,9 @@ $font-stack-sans-serif: 'Proxima Nova', Helvetica, Arial, sans-serif;
 $font-stack-serif: Cantata One, Georgia Pro, Georgia, Times New Roman, serif;
 
 body {
-	font-family: $font-stack-serif;
 	color: $charcoal;
 	font-weight: 400;
+	font-family: $font-stack-serif;
 }
 
 h1, h2, h3, h4, h5 {
@@ -16,9 +16,10 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-    font-size: 3em;
-    font-family: $font-stack-serif;
     color: $charcoal;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: $font-stack-serif;
 }
 
 h2 {
@@ -37,11 +38,34 @@ h5 {
     font-size: 1.5em;
 }
 
+.heading-ornament {
+    &:before, &:after {
+        position: relative;
+        display: inline-block;
+        width: 1.75em;
+        height: 1em;
+        content: " ";
+        top: .1em;
+    }
+    
+    &:before {
+        background: url('../images/arrow-left.svg') center right no-repeat;
+        background-size: contain;
+        margin-right: .5em;
+    }
+
+    &:after {
+        background: url('../images/arrow-right.svg') center left no-repeat;
+        background-size: contain;
+        margin-left: .5em;
+    }
+}
+
 p {
-    font-family: $font-stack-sans-serif;
-    line-height: 1.75;
     margin-bottom: 1em;
     color: $grey;
+    font-family: $font-stack-sans-serif;
+    line-height: 1.75;
 }
 
 .superscript {
@@ -54,16 +78,16 @@ p {
 }
 
 a {
-    text-decoration: none;
-    color: $green;
     background-image: linear-gradient(transparent 50%, currentColor 50%);
-    background-repeat: repeat-x;
-    background-size: .1em .1em;
     background-position: 0 .875em;
+    background-size: .1em .1em;
+    background-repeat: repeat-x;
+    color: $green;
+    text-decoration: none;
     
     &:hover {
-        color: darken($green, 20%);
         background-image: linear-gradient(transparent 50%, currentColor 50%);
+        color: darken($green, 20%);
     }
 }
 
@@ -96,8 +120,8 @@ a {
    
     header {
         h1 {
-            height: 6rem;
             margin: 0 1rem;
+            height: 6rem;
             background-position: left center;
         }
     }

@@ -10,7 +10,7 @@ nav {
 		> li {
     		position: relative;
 			display: inline-block;
-			margin: 0 .25em;
+			margin: 0 -.25em;
 		}
 	}
 	
@@ -21,12 +21,14 @@ nav {
 		font-size: .875em;
 		display: block;
 		padding: 1em;
+		border-left: 1px solid transparent;
+		border-right: 1px solid transparent;
         @include link-no-border;
 	}
 	
 	> ul > li > a {
     	z-index: 1000;
-    	position: relative;
+    	position: relative;    	
 	}
 	
 	.current {
@@ -37,6 +39,10 @@ nav {
     	a {
         	background-color: $super-light-grey;
     	}
+    	
+    	> a {
+        	border-color: $light-grey;
+    	}    	
 	}
 	
 	a:hover {
@@ -51,7 +57,10 @@ nav {
     background-color: $super-light-grey;
    	z-index: 999;
    	min-width: 10em;
-   	@include shadow(3);
+	border-left: 1px solid $light-grey;
+	border-right: 1px solid $light-grey;
+	border-bottom: 1px solid $light-grey;
+   	@include shadow(5);
 
     li {
         display: block;
@@ -110,6 +119,7 @@ nav {
         background-color: transparentize($light-grey, .05);
         max-height: 0;
         overflow: hidden;
+        z-index: 99;
         
     	li:hover {
         	a:not(.current) {

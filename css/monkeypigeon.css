@@ -3,7 +3,7 @@
 html {
   box-sizing: border-box; }
 
-*, *:before, *:after {
+*, *::after, *::before {
   box-sizing: inherit; }
 
 html, body, div, span, applet, object, iframe,
@@ -91,18 +91,19 @@ textarea {
   font-weight: 400;
   font-style: italic; }
 body {
-  font-family: Cantata One, Georgia Pro, Georgia, Times New Roman, serif;
   color: #3A3B3D;
-  font-weight: 400; }
+  font-weight: 400;
+  font-family: Cantata One, Georgia Pro, Georgia, Times New Roman, serif; }
 
 h1, h2, h3, h4, h5 {
   margin-bottom: .5em;
   line-height: 1.25; }
 
 h1 {
+  color: #3A3B3D;
   font-size: 3em;
-  font-family: Cantata One, Georgia Pro, Georgia, Times New Roman, serif;
-  color: #3A3B3D; }
+  text-transform: uppercase;
+  font-family: Cantata One, Georgia Pro, Georgia, Times New Roman, serif; }
 
 h2 {
   font-size: 2.5em; }
@@ -116,11 +117,27 @@ h4 {
 h5 {
   font-size: 1.5em; }
 
+.heading-ornament:before, .heading-ornament:after {
+  position: relative;
+  display: inline-block;
+  width: 1.75em;
+  height: 1em;
+  content: " ";
+  top: .1em; }
+.heading-ornament:before {
+  background: url("../images/arrow-left.svg") center right no-repeat;
+  background-size: contain;
+  margin-right: .5em; }
+.heading-ornament:after {
+  background: url("../images/arrow-right.svg") center left no-repeat;
+  background-size: contain;
+  margin-left: .5em; }
+
 p {
-  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
-  line-height: 1.75;
   margin-bottom: 1em;
-  color: #616162; }
+  color: #616162;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  line-height: 1.75; }
 
 .superscript {
   vertical-align: super;
@@ -130,17 +147,17 @@ p {
   font-variant: small-caps; }
 
 a {
-  text-decoration: none;
-  color: #4fa191;
   background-image: -webkit-linear-gradient(transparent 50%, currentColor 50%);
   background-image: linear-gradient(transparent 50%, currentColor 50%);
-  background-repeat: repeat-x;
+  background-position: 0 .875em;
   background-size: .1em .1em;
-  background-position: 0 .875em; }
+  background-repeat: repeat-x;
+  color: #4fa191;
+  text-decoration: none; }
   a:hover {
-    color: #2d5d53;
     background-image: -webkit-linear-gradient(transparent 50%, currentColor 50%);
-    background-image: linear-gradient(transparent 50%, currentColor 50%); }
+    background-image: linear-gradient(transparent 50%, currentColor 50%);
+    color: #2d5d53; }
 
 .heading-break {
   display: block; }
@@ -162,8 +179,8 @@ a {
     font-size: 1.25rem; }
 
   header h1 {
-    height: 6rem;
     margin: 0 1rem;
+    height: 6rem;
     background-position: left center; } }
 nav {
   background: #EEEEEE;
@@ -175,7 +192,7 @@ nav {
     nav ul > li {
       position: relative;
       display: inline-block;
-      margin: 0 .25em; }
+      margin: 0 -.25em; }
   nav a {
     color: #616162;
     text-transform: uppercase;
@@ -183,6 +200,8 @@ nav {
     font-size: .875em;
     display: block;
     padding: 1em;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
     background: none; }
     nav a:hover {
       background: none; }
@@ -193,6 +212,8 @@ nav {
     background: #FBFBFB; }
   nav li:hover a {
     background-color: #FBFBFB; }
+  nav li:hover > a {
+    border-color: #EEEEEE; }
   nav a:hover {
     color: #4fa191; }
 
@@ -203,7 +224,10 @@ nav {
   background-color: #FBFBFB;
   z-index: 999;
   min-width: 10em;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19); }
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  box-shadow: 0 15px 24px rgba(0, 0, 0, 0.22), 0 19px 76px rgba(0, 0, 0, 0.3); }
   .nav-submenu li {
     display: block;
     text-align: left;
@@ -291,7 +315,8 @@ nav {
     width: 100%;
     background-color: rgba(238, 238, 238, 0.95);
     max-height: 0;
-    overflow: hidden; }
+    overflow: hidden;
+    z-index: 99; }
     nav li:hover a:not(.current) {
       background-color: transparent; }
     nav a {
@@ -589,3 +614,62 @@ aside {
       color: #3A3B3D; }
     .aside-content.flag:after, .aside-content.flag:before {
       content: none; } }
+.section-menu h1, .section-menu h2, .section-menu h3, .section-menu h4 {
+  text-align: center; }
+.section-menu h1 {
+  color: #3A3B3D; }
+.section-menu h2 {
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  font-size: 1.5em;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif; }
+
+.list-menu {
+  text-align: center;
+  font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+  max-width: 18em;
+  margin: 0 auto 3em; }
+  .list-menu li {
+    margin-bottom: 2.5em; }
+  .list-menu h4 {
+    position: relative;
+    margin-bottom: .25em;
+    color: #616162;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 1.25em;
+    font-family: "Proxima Nova", Helvetica, Arial, sans-serif;
+    line-height: 1.5; }
+
+@media (max-width: 60em) {
+  .list-menu {
+    max-width: 16em;
+    font-size: 90%; } }
+.bev-score {
+  position: absolute;
+  display: inline-block;
+  margin-left: .75em;
+  padding: .25em .5em .2em;
+  border-radius: 50%;
+  background: #F1EF8F;
+  color: #3A3B3D;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-size: .875rem;
+  line-height: 1.75;
+  letter-spacing: 0; }
+  .bev-score--wide {
+    padding: .5em .5em .45em;
+    font-size: .75rem;
+    line-height: 1.5; }
+  .bev-score:hover {
+    background: #F1EF8F; }
+
+.menu-description {
+  position: relative;
+  color: #616162;
+  font-style: italic;
+  font-size: .875em;
+  font-family: Cantata One, Georgia Pro, Georgia, Times New Roman, serif;
+  line-height: 1.5; }

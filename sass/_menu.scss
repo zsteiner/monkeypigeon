@@ -1,0 +1,80 @@
+.section-menu {
+    h1, h2, h3, h4 {
+        text-align: center;
+    }
+    
+    h1 {
+        color: $charcoal;
+    }
+    
+    h2 {
+        text-transform: uppercase;
+        letter-spacing: .15em;
+        font-size: 1.5em;
+        font-family: $font-stack-sans-serif;
+    }
+}
+
+.list-menu {
+    text-align: center;
+    font-family: $font-stack-sans-serif;
+    max-width: 18em;
+    margin: 0 auto 3em;  
+    
+    li {
+        margin-bottom: 2.5em;
+    }
+    
+    h4 {
+        position: relative;
+        margin-bottom: .25em;
+        color: $grey;
+        text-transform: uppercase;
+        letter-spacing: .1em;
+        font-size: 1.25em;
+        font-family: $font-stack-sans-serif;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: $screen-sm-min) {
+    .list-menu {
+        max-width: 16em;
+        font-size: 90%;
+    }
+}
+
+.bev-score {
+    position: absolute;
+    display: inline-block;
+    margin-left: .75em;
+    padding: .25em .5em .2em;
+    border-radius: 50%;
+    background: $yellow;
+    color: $charcoal;
+    text-align: center;
+    text-decoration: none;
+    font-style: normal;
+    font-size: .875rem;
+    line-height: 1.75;
+    letter-spacing: 0;
+    
+    &--wide {
+        padding: .5em .5em .45em;
+        font-size: .75rem;
+        line-height: 1.5;
+    }
+    
+    &:hover {
+        background: $yellow;
+    }
+}
+
+.menu-description {
+    position: relative;
+    color: $grey;
+    font-style: italic; 
+    font-size: .875em;
+    font-family: $font-stack-serif;
+    line-height: 1.5;
+}
